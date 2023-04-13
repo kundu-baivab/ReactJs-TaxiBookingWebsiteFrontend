@@ -36,3 +36,222 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: black;
+}
+
+#root {
+  font-family: "PT Serif", serif;
+}
+
+@media (max-width: 768px) {
+  .col-sm-6 {
+    width: 100%;
+  }
+}
+
+.box {
+  padding: 0 0;
+}
+
+
+/* Header style */
+
+.navy {
+  background-color: rgba(8, 8, 59, 0.842);
+}
+
+.titlebar ul {
+  margin: 0 auto;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.titlebar ul li a:hover {
+  /* box-shadow: ; */
+}
+
+.title {
+  color: beige;
+  font-size: 35px;
+  font-family: "Great Vibes", cursive;
+  text-decoration: none;
+}
+
+.title:hover {
+  color: rgba(245, 245, 220, 0.877);
+  text-decoration: none;
+}
+
+/* Header style ends */
+
+
+/* Home style starts */
+
+.home {
+  background-image: url("./components/bgpic.png");
+  position: static;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+h3 {
+  font-family: "Tilt Prism", cursive;
+  font-size: 40px;
+}
+
+.white-space {
+  background: rgb(34, 34, 31);
+  margin: 120px auto;
+  padding: 25px;
+  border-radius: 20px;
+  border: 2px solid azure;
+  box-shadow: 10px 5px 20px #f7f7809b;
+}
+
+.inp:hover {
+  background-color: rgba(255, 255, 255, 0.79);
+  border: 3px solid #ede7a2;
+}
+
+textarea {
+  max-width: 100%;
+}
+
+textarea:hover {
+  background-color: rgba(255, 255, 255, 0.906);
+  border: 3px solid #ede7a2;
+}
+
+.b {
+  background-color: #61cffb;
+  border-radius: 7px;
+  padding: 5px;
+  margin: 0 auto;
+  display: block;
+}
+
+.b:hover {
+  box-shadow: 2px 0px 15px #e0f75e;
+}
+
+/* Home style ends */
+
+
+/* Footer style starts */
+
+footer {
+  background-color: #548af7;
+  font-family: "PT Serif", serif;
+  font-size: 15px;
+}
+
+/* Footer style ends */
+
+
+/* Services style starts */
+
+.servicepara {
+  color: #49a3bc;
+  font-size: 20px;
+}
+
+.simg {
+  box-shadow: 10px 5px 20px #53a3b9;
+  border-radius: 5px;
+}
+
+.content {
+  margin: 0 30px;
+  margin-top: 90px;
+  margin-bottom: 40px;
+
+}
+
+.content img:hover{
+  transform: scale(1.1);
+  box-sizing: content-box;
+  transition: transform .2s;
+
+}
+
+/* Services style ends */
+
+
+/* About style starts */
+
+.ahead {
+  margin: 100px auto;
+  font-family: "Tilt Prism", cursive;
+  font-size: 40px;
+}
+
+.ap{
+  font-size: 20px;
+}
+
+.aimg{
+  box-shadow: 10px 5px 20px #eeee71;
+  border-radius: 5px;
+}
+
+.aboutpara{
+  color: #f1f48dc3;
+  font-size: 20px;
+}
+
+.aboutpara2{
+  
+  color: #f1f48dc3;
+  font-size: 20px;
+}
+/* About style ends */
+
+
+
+
+/* Contact style starts */
+
+.carousel{
+  background: rgb(230, 240, 240);
+  margin: 60px auto;
+  padding: 25px;
+  border-radius: 20px;
+  border: 3px solid rgb(13, 8, 64);
+  background-image: url("https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  position: static;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.links:hover{
+  text-decoration: none;
+  transform: scale(1.1);
+  /* box-sizing: content-box; */
+  transition: transform .2s;
+}
+
+.google-maps{
+  border-radius: 20px;
+  border: 1px solid rgb(13, 8, 64);
+  box-shadow: 10px 5px 20px #53a3b9;
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 25%; 
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Contact style ends */
