@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Taxi Booking Website Readme
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Taxi Booking Website! This website offers reliable and affordable transportation services for various needs. Below are the key details about the webpages and the tech stack used in the Taxi Booking Website:
 
-## Available Scripts
+## Webpages
 
-In the project directory, you can run:
+### Home
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://github.com/kundu-baivab/ReactJs-TaxiBookingWebsiteFrontend/assets/106022593/b6d0f00a-3c6e-4ac6-93ee-ac83ea6d317b
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+The Home page (`Home.js`) serves as the main landing page of the website. It provides a multi-step form submission feature where users can enter their details for booking a vehicle service. The form is divided into multiple sections, including Address Info, Personal Info, and Vehicle Info, before reaching the final completion step.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Services
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://github.com/kundu-baivab/ReactJs-TaxiBookingWebsiteFrontend/assets/106022593/cb12320a-d358-4d2b-9ba1-dd0c6d596afe
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The Services page (`Services.js`) showcases the different types of taxis available for booking. It presents three categories of taxis, each with its description and an accompanying image.
 
-### `npm run eject`
+### About
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+https://github.com/kundu-baivab/ReactJs-TaxiBookingWebsiteFrontend/assets/106022593/42f6fe70-0184-4dc3-a2ad-d820b3078b09
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The About page (`About.js`) provides information about the taxi booking service. It presents a brief introduction to the team behind the service and their commitment to providing reliable and affordable transportation options.
 
-## Learn More
+### Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![image](https://github.com/kundu-baivab/ReactJs-TaxiBookingWebsiteFrontend/assets/106022593/00194978-61d3-4f4d-829a-3d7441fcd203)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+The Contact page (`Contact.js`) provides ways for users to get in touch with the taxi booking service. It offers contact details and links to the service's WhatsApp number for inquiries and an Instagram page for further updates and details. Additionally, the page includes a Google Maps embedded iframe that displays the location of the taxi service's pre-paid taxi stand.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Tech Stack
 
-### Analyzing the Bundle Size
+The Taxi Booking Website is built using the following tech stack:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **React**: The frontend of the website is developed using React, a popular JavaScript library for building user interfaces.
+- **HTML/CSS**: The website's structure and styling are implemented using HTML and CSS.
+- **Bootstrap**: Bootstrap, a CSS framework, is used for responsive and mobile-friendly design components.
+- **Google Maps API**: The Google Maps API is integrated to display the location of the taxi service's pre-paid taxi stand.
 
-### Making a Progressive Web App
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To run the Taxi Booking Website locally, follow these steps:
 
-### Advanced Configuration
+1. Clone or download the project repository from [GitHub](https://github.com/kundu-baivab/ReactJs-TaxiBookingWebsiteFrontend).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+2. Navigate to the project directory in your terminal or command prompt.
 
-### Deployment
+3. Install the project dependencies by running the following command:
+```
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+5. Start the development server with the following command:
 
-### `npm run build` fails to minify
+```
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+6. The website will be accessible at `http://localhost:3000` in your web browser.
