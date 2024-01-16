@@ -23,7 +23,7 @@ const Header = () => {
             <li className="nav-item active">
               <a
                 className="nav-link font-weight-bold"
-                href="http://localhost:3000/services"
+                href="/services"
               >
                 Services
               </a>
@@ -31,7 +31,7 @@ const Header = () => {
             <li className="nav-item active">
               <a
                 className="nav-link font-weight-bold"
-                href="http://localhost:3000/about"
+                href="/about"
               >
                 About
               </a>
@@ -39,7 +39,7 @@ const Header = () => {
             <li className="nav-item active">
               <a
                 className="nav-link font-weight-bold"
-                href="http://localhost:3000/contact"
+                href="/contact"
                 // onClick={(e)=>{
                 //     // e.preventDefault()
                 //     window.alert("Page is currently down(Under Construction). Redirecting to home page.");
